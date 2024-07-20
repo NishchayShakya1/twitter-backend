@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc && nodemon build/index.js",
-    "start": "tsc && nodemon build/index.js",
+    "start": "tsc && node build/index.js",
     "start-on-heroku": "node ./build/index.js",
     "build": "tsc",
     "serve": "tsc && node build/index.js"
